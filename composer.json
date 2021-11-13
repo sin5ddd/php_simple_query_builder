@@ -1,0 +1,20 @@
+{
+  "name": "sin5ddd/simple_query_builder",
+  "description": "simple query builder for PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shingo Kitayama",
+      "email": "shingo.kitayama@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "SQB\\": "src"
+    }
+  }
+}
